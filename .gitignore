@@ -1,0 +1,26 @@
+
+# Python virtual environment
+frontend/.venv/
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Node.js dependencies
+backend/node_modules/
+
+# Local database and SQLite files
+backend/verifyflow.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
